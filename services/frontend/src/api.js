@@ -1,4 +1,5 @@
 const TOKEN_KEY = 'sop_token'
+const API_BASE = (import.meta.env.VITE_API_BASE_URL || '').replace(/\/$/, '')
 
 export function getToken() {
   return localStorage.getItem(TOKEN_KEY)
@@ -16,7 +17,8 @@ export async function api(path, options = {}) {
   const headers = { 'Content-Type': 'application/json', ...(options.headers || {}) }
   const token = getToken()
   if (token) headers['Authorization'] = `Bearer ${token}`
-  const res = await fetch(path, { ...options, headers })
+  const url = /^https?:\/\//.test(path) ? path : `${API_BASE}${path}`
+  const res = await fetch(url, { ...options, headers })
   if (res.status === 401) {
     clearToken()
     throw new Error('Sesión expirada')

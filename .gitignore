@@ -16,7 +16,11 @@ logs/
 *.tmp
 .env
 .env.*
+!.env.example
 *.pem
 *.key
 .DS_Store
 Thumbs.db
+
+# Local Netlify folder
+.netlify
