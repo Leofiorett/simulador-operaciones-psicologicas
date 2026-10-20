@@ -1,0 +1,53 @@
+{
+  "modulo": "modulo-03-audiencias",
+  "preguntas": [
+    {
+      "pregunta": "El punto de partida de toda planificación OPSIC según doctrina es:",
+      "opciones": ["El mensaje que queremos emitir", "El comportamiento buscado y en quién", "El canal disponible", "El presupuesto asignado"],
+      "correcta": 1,
+      "explicacion": "'Audiencia primero': todo deriva del análisis de audiencia y del BOD."
+    },
+    {
+      "pregunta": "Un segmento es operativo si cumple:",
+      "opciones": ["Homogeneidad actitudinal, alcanzabilidad y aporte al objetivo", "Ser el más numeroso", "Estar siempre de acuerdo con nosotros", "Tener líderes hostiles"],
+      "correcta": 0,
+      "explicacion": "Los tres criterios definen operatividad de un segmento."
+    },
+    {
+      "pregunta": "El BOD (comportamiento observable deseado) debe ser:",
+      "opciones": ["Una aspiración general", "Verificable mediante indicadores concretos", "Secreto incluso para el planificador", "Solo emocional"],
+      "correcta": 1,
+      "explicacion": "Sin conducta observable verificable no hay evaluación posible."
+    },
+    {
+      "pregunta": "Cuál campo NO pertenece a la ficha de análisis de audiencia:",
+      "opciones": ["Vulnerabilidades psicológicas", "Canales efectivos", "Presupuesto del adversario", "Influenciadores aceptados"],
+      "correcta": 2,
+      "explicacion": "El presupuesto adversario puede ser dato de intel pero no integra la ficha de audiencia."
+    },
+    {
+      "pregunta": "El gancho 'prueba social' explota la tendencia a:",
+      "opciones": ["Obedecer a la autoridad", "Imitar lo percibido como mayoritario", "Valorar lo escaso", "Recordar lo repetido"],
+      "correcta": 1,
+      "explicacion": "Prueba social = heurística de conformidad con la mayoría percibida."
+    },
+    {
+      "pregunta": "Por qué el miedo-FUD es de uso restringido en doctrina:",
+      "opciones": ["Es ilegal siempre", "Abre receptividad pero erosiona credibilidad y produce reactancia", "No funciona en poblaciones rurales", "Requiere canales digitales"],
+      "correcta": 1,
+      "explicacion": "Alto impacto inmediato, alto costo reputacional y riesgo de rechazo reactivo."
+    },
+    {
+      "pregunta": "La radio potencia especialmente el gancho de autoridad porque:",
+      "opciones": ["Permite imágenes", "Su formato institucional transmite legitimidad percibida", "Es bidireccional", "Tiene alta fatiga"],
+      "correcta": 1,
+      "explicacion": "El medio radial conserva fuerte asociación con fuentes institucionales/estatales."
+    },
+    {
+      "pregunta": "En una operación real, fuentes válidas para el análisis de audiencia incluyen:",
+      "opciones": ["Solo censos oficiales", "Encuestas, prensa local, desertores, informes de acción cívica", "Redes sociales del propio ejército", "Intuición del comandante"],
+      "correcta": 1,
+      "explicacion": "El análisis exige fuentes múltiples convergentes sobre la población objetivo."
+    }
+  ]
+}

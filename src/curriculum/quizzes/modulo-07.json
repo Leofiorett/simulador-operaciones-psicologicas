@@ -1,0 +1,53 @@
+{
+  "modulo": "modulo-07-contrainfluencia",
+  "preguntas": [
+    {
+      "pregunta": "La defensa eficaz contra operaciones de influencia:",
+      "opciones": ["Responde mensaje por mensaje", "Caracteriza la operación completa y ataca sus condiciones de posibilidad", "Prohibe internet", "Ignora el problema"],
+      "correcta": 1,
+      "explicacion": "La respuesta reactiva fragmentada pierde; se analiza la operación como sistema."
+    },
+    {
+      "pregunta": "Indicador clásico de operación coordinada:",
+      "opciones": ["Tema nuevo apareciendo simultáneamente en cuentas no interconectadas", "Contenido original diverso", "Bajo volumen total", "Audiencias decrecientes"],
+      "correcta": 0,
+      "explicacion": "Sincronía sin interconexión visible sugiere orquestación (T0051/T0054)."
+    },
+    {
+      "pregunta": "'Grano de verdad' (T0042) es eficaz adversariamente porque:",
+      "opciones": ["Es ilegal de refutar", "Ancla la distorsión en un agravio real difícil de negar", "No requiere canales", "Solo funciona offline"],
+      "correcta": 1,
+      "explicacion": "La base verdadera protege al mensaje del desmentido global."
+    },
+    {
+      "pregunta": "La inoculación (prebunking) consiste en:",
+      "opciones": ["Censurar previamente", "Exponer antes a versiones debilitadas de la maniobra con su refutación", "Contratar influencers", "Aumentar la frecuencia propia"],
+      "correcta": 1,
+      "explicacion": "Vacuna cognitiva: anticipa técnicas y entrena su reconocimiento."
+    },
+    {
+      "pregunta": "El error 'amplificar por negación' consiste en:",
+      "opciones": ["Repetir el marco adversario al refutarlo, difundiéndolo más", "Negar toda participación", "Usar propaganda negra defensiva", "Responder con datos"],
+      "correcta": 0,
+      "explicacion": "Refutar repitiendo el frame lo legitima y difunde."
+    },
+    {
+      "pregunta": "El núcleo de una narrativa adversaria suele ser:",
+      "opciones": ["Una mentira total", "Un agravio o miedo real sin resolver", "Un dato estadístico", "Un símbolo religioso"],
+      "correcta": 1,
+      "explicacion": "Por eso la contramedida duradera atiende el núcleo real, no solo la retórica."
+    },
+    {
+      "pregunta": "La censura visible de contenido adversario típicamente produce:",
+      "opciones": ["Desaparición definitiva", "Mártires y efecto Streisand", "Mayor credibilidad estatal", "Reducción automática del alcance"],
+      "correcta": 1,
+      "explicacion": "La supresión notoria amplifica el contenido y victimiza a su portador."
+    },
+    {
+      "pregunta": "En el escenario defensa_desinformacion, el rol del alumno es:",
+      "opciones": ["Ejecutar la operación adversaria", "Detectar técnicas DISARM y diseñar contramedidas que superen objetivos defensivos", "Observar sin intervenir", "Reemplazar la radio por altavoces"],
+      "correcta": 1,
+      "explicacion": "El escenario inyecta la operación adversaria; el alumno defiende."
+    }
+  ]
+}

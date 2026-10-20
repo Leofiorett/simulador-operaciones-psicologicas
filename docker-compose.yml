@@ -1,0 +1,86 @@
+version: '3.8'
+
+networks:
+  sop-net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.90.0.0/16
+
+volumes:
+  sop_postgres_data:
+  sop_redis_data:
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: sop-db
+    environment:
+      POSTGRES_DB: sop
+      POSTGRES_USER: sop
+      POSTGRES_PASSWORD: ${SOP_DB_PASSWORD:-sop_pass_2026}
+    ports:
+      - "5433:5432"
+    volumes:
+      - sop_postgres_data:/var/lib/postgresql/data
+      - ./services/database/init.sql:/docker-entrypoint-initdb.d/01-init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U sop -d sop"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks:
+      - sop-net
+
+  redis:
+    image: redis:7-alpine
+    container_name: sop-redis
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6380:6379"
+    volumes:
+      - sop_redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    networks:
+      - sop-net
+
+  backend:
+    build: ./services/backend
+    container_name: sop-backend
+    environment:
+      DATABASE_URL: postgresql+asyncpg://sop:${SOP_DB_PASSWORD:-sop_pass_2026}@db:5432/sop
+      REDIS_URL: redis://redis:6379/0
+      SOP_SECRET_KEY: ${SOP_SECRET_KEY:-change-me-in-production}
+      SOP_DATA_DIR: /app/data
+      SOP_SRC_DIR: /app/src
+    ports:
+      - "8001:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./data:/app/data
+      - ./src:/app/src:ro
+    restart: unless-stopped
+    networks:
+      - sop-net
+
+  frontend:
+    build:
+      context: ./services/frontend
+      args:
+        API_BASE_URL: http://localhost:8001
+    container_name: sop-frontend
+    ports:
+      - "8090:80"
+    depends_on:
+      - backend
+    restart: unless-stopped
+    networks:
+      - sop-net

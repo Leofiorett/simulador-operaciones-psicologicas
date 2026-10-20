@@ -1,0 +1,6 @@
+export { Login } from './Login'
+export { Dashboard } from './Dashboard'
+export { Cursos, CursoDetalle } from './Cursos'
+export { Simulador } from './Simulador'
+export { Ejercicios, EjercicioDetalle } from './Ejercicios'
+export { Taxonomias } from './Taxonomias'

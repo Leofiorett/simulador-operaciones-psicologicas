@@ -1,0 +1,53 @@
+{
+  "modulo": "modulo-04-maniobra",
+  "preguntas": [
+    {
+      "pregunta": "La cadena lógica correcta del plan psicológico es:",
+      "opciones": ["Producto -> canal -> idea-fuerza -> objetivo", "Objetivo militar -> objetivo psicológico -> persuasivo -> BOD -> idea-fuerza", "Idea-fuerza -> objetivo militar -> producto", "Canal -> frecuencia -> tema -> objetivo"],
+      "correcta": 1,
+      "explicacion": "Cada eslabón se traza hacia arriba desde el producto hasta el objetivo militar."
+    },
+    {
+      "pregunta": "La doctrina exige que cada maniobra tenga:",
+      "opciones": ["Muchas ideas simultáneas para cubrir todo", "Una sola idea-fuerza central", "Ideas diferentes por canal", "Ninguna idea explícita"],
+      "correcta": 1,
+      "explicacion": "Una idea única, memorable y repetible por la propia audiencia."
+    },
+    {
+      "pregunta": "Un producto que no puede rastrearse hasta un tema ni este hasta la idea-fuerza:",
+      "opciones": ["Se conserva por prudencia", "Se elimina", "Se envía igual por radio", "Se clasifica como negro"],
+      "correcta": 1,
+      "explicacion": "Regla de trazabilidad: producto fuera de cadena = ruido que gasta credibilidad."
+    },
+    {
+      "pregunta": "Humillar a la audiencia en los temas produce típicamente:",
+      "opciones": ["Sumisión rápida", "Reactancia o rechazo activo", "Indiferencia", "Mejor recordación positiva"],
+      "correcta": 1,
+      "explicacion": "La humillación genera resistencia psicológica contraproducente."
+    },
+    {
+      "pregunta": "El canal de máxima credibilidad percibida es:",
+      "opciones": ["Digital sintético", "Radio", "Altavoces", "Acción cívica/contacto directo"],
+      "correcta": 3,
+      "explicacion": "'Los hechos confirman': la asistencia concreta construye la confianza más durable."
+    },
+    {
+      "pregunta": "La sobreexposición de un mensaje causa:",
+      "opciones": ["Refuerzo lineal infinito", "Fatiga de audiencia y pérdida de credibilidad", "Conversión automática", "Mayor polarización solo en hostiles"],
+      "correcta": 1,
+      "explicacion": "El motor SOP implementa fatiga por canal y frecuencia."
+    },
+    {
+      "pregunta": "La OPSIC táctica se sincroniza con la maniobra para:",
+      "opciones": ["Preparar, acompañar y explotar la acción militar", "Reemplazar la maniobra", "Sustituir la inteligencia", "Cumplir requisitos administrativos"],
+      "correcta": 0,
+      "explicacion": "Mensaje prepara la acción, la acompaña y capitaliza sus efectos."
+    },
+    {
+      "pregunta": "En esta plataforma, la función de aprobación y control del plan la cumple:",
+      "opciones": ["El motor de simulación", "El campo authorized_by del ejercicio", "El canal elegido", "El cuestionario del módulo"],
+      "correcta": 1,
+      "explicacion": "Ningún ejercicio arranca sin instructor responsable registrado."
+    }
+  ]
+}

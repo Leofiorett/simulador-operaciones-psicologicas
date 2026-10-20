@@ -1,0 +1,663 @@
+{
+  "marco": "DISARM Red Framework (subset técnico)",
+  "origen": "DISARMframeworks-es / DISARM_database.sqlite (local)",
+  "idioma": "es",
+  "nota": "Traducción al español de nombres, tácticas y descripciones realizada localmente para uso instruccional (el archivo .esdone del proyecto DISARM-es estaba vacío). Marco original: DISARM MisinfosecWG.",
+  "total_tecnicas": 71,
+  "tacticas": [
+    "Planificación estratégica",
+    "Planificación de objetivos",
+    "Desarrollo de personas",
+    "Desarrollo de redes",
+    "Microsegmentación",
+    "Desarrollo de contenido",
+    "Selección de canales",
+    "Cebado (pump priming)",
+    "Exposición y amplificación",
+    "Impulso de actividad fuera de línea",
+    "Persistencia",
+    "Medición de efectividad",
+    "Análisis del centro de gravedad"
+  ],
+  "tecnicas": [
+    {
+      "id": "T0001",
+      "tactica_id": "TA01",
+      "tactica_es": "Planificación estratégica",
+      "nombre_original": "5Ds (dismiss, distort, distract, dismay, divide)",
+      "nombre_es": "5Ds (descartar, distorsionar, distraer, desalentar, dividir)",
+      "resumen": "Las «4D de la propaganda» de Nimmo: descartar, distorsionar, distraer, desalentar (MisinfosecWG agregó «dividir» en 2019). La desinformación promueve una agenda impulsando narrativas que la favorecen. Es más eficaz cuando la narrativa impulsa­da precede a la revelación del contenido específico de desinformación; esto frecuentemente no es posible.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0002",
+      "tactica_id": "TA01",
+      "tactica_es": "Planificación estratégica",
+      "nombre_original": "Facilitate State Propaganda",
+      "nombre_es": "Facilitar propaganda estatal",
+      "resumen": "Organizar a los ciudadanos en torno a mensajes favorables al Estado. Coordinar grupos pagos o voluntarios para difundir la propaganda oficial.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0003",
+      "tactica_id": "TA01",
+      "tactica_es": "Planificación estratégica",
+      "nombre_original": "Leverage Existing Narratives",
+      "nombre_es": "Apalancar narrativas existentes",
+      "resumen": "Usar o adaptar temas narrativos existentes; las narrativas son las historias de base de una audiencia objetivo y constituyen el fundamento de nuestra visión del mundo: la información nueva se interpreta sobre esa base. Si la información nueva no es consistente con las narrativas predominantes de una audiencia, será ignorada. Las campañas eficaces enmarcan su desinformación en el contexto de esas narrativas; las muy eficaces hacen uso extensivo de arquetipos y metanarrativas apropiadas para la audiencia durante toda la creación y amplificación de contenido.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0004",
+      "tactica_id": "TA01",
+      "tactica_es": "Planificación estratégica",
+      "nombre_original": "Devise Competing Narratives",
+      "nombre_es": "Diseñar narrativas competitivas",
+      "resumen": "Impulsar narrativas competitivas vinculadas al mismo tema: por ejemplo, negar un incidente y a la vez expresar desdén por él. Suprimir o desalentar narrativas ya en circulación exige una alternativa. El conjunto más simple de técnicas narrativas de respuesta consiste en construir y promover alternativas contradictorias centradas en la negación, la desviación, el desdén, las contraacusaciones, exigencias desmedidas de prueba, el sesgo en la prohibición o aplicación de reglas, etcétera. Estas narrativas competitivas dan cobertura a los leales, pero resultan menos convincentes para los opositores y los indecisos que las campañas basadas en narrativas existentes o en grandes narrativas muy explicativas; son especialmente útiles en el enfoque de «manguera de desinformación».",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0006",
+      "tactica_id": "TA02",
+      "tactica_es": "Planificación de objetivos",
+      "nombre_original": "Develop Narrative Concepts",
+      "nombre_es": "Desarrollar conceptos narrativos",
+      "resumen": "La promoción de grandes narrativas benéficas es quizá el método más eficaz para lograr dominio narrativo estratégico de largo plazo. Desde una perspectiva de «toda la sociedad», promover las narrativas maestras centrales debe ocupar un papel estratégico central. Desde la seguridad cognitiva, las tácticas giran en torno a la promoción y el refuerzo diario de ese mensaje: las narrativas maestras de alta cobertura son un objetivo estratégico central y su promoción constituye una lucha táctica permanente desarrollada tanto en línea como fuera de ella.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0007",
+      "tactica_id": "TA03",
+      "tactica_es": "Desarrollo de personas",
+      "nombre_original": "Create fake Social Media Profiles / Pages / Groups",
+      "nombre_es": "Crear perfiles/páginas/grupos falsos en redes sociales",
+      "resumen": "Crear los activos clave de ingeniería social necesarios para amplificar contenido, manipular algoritmos, engañar al público y/o a objetivos específicos de un incidente o campaña. La propaganda computacional depende sustancialmente de percepciones falsas de credibilidad y aceptación: creando usuarios y grupos falsos con diversos intereses, el atacante logra que sus mensajes provengan de fuentes confiables y parezcan más adoptados de lo que realmente están.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0008",
+      "tactica_id": "TA03",
+      "tactica_es": "Desarrollo de personas",
+      "nombre_original": "Create fake or imposter news sites",
+      "nombre_es": "Crear sitios de noticias falsos o suplantados",
+      "resumen": "La propaganda computacional moderna utiliza un conjunto de sitios de noticias impostores de alcance global. Estos sitios —a veces motivados por lucro publicitario antes que por propaganda— suelen presentar marcadores superficiales de autenticidad (nombres, diseño), pero muchos pueden exponerse rápidamente examinando su propiedad, su historial de reportes y sus detalles publicitarios.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0009",
+      "tactica_id": "TA03",
+      "tactica_es": "Desarrollo de personas",
+      "nombre_original": "Create fake experts",
+      "nombre_es": "Crear falsos expertos",
+      "resumen": "Las historias sembradas o promovidas en operaciones de propaganda computacional suelen apoyarse en expertos fabricados íntegramente para la ocasión, a veces creados específicamente para la propia historia.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0010",
+      "tactica_id": "TA04",
+      "tactica_es": "Desarrollo de redes",
+      "nombre_original": "Cultivate ignorant agents",
+      "nombre_es": "Cultivar agentes ignorantes",
+      "resumen": "Cultivar propagandistas de una causa cuyos objetivos no comprenden cabalmente y que son usados cínicamente por sus dirigentes. Actores independientes usan redes sociales y sitios especializados para reforzar y difundir mensajes compatibles con los propios; sus redes son infiltradas y aprovechadas por organizaciones estatales de desinformación para amplificar estrategias propias contra poblaciones objetivo. Muchos trafican teorías conspirativas o bulos, unidos por la desconfianza hacia gobiernos occidentales y medios mainstream. También se los conoce como «útiles idiotas» o «agentes involuntarios».",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0011",
+      "tactica_id": "TA04",
+      "tactica_es": "Desarrollo de redes",
+      "nombre_original": "Compromise legitimate account",
+      "nombre_es": "Comprometer cuentas legítimas",
+      "resumen": "Comprometer (hackear) o tomar control de cuentas legítimas para distribuir desinformación o contenido dañino.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0012",
+      "tactica_id": "TA04",
+      "tactica_es": "Desarrollo de redes",
+      "nombre_original": "Use concealment",
+      "nombre_es": "Usar ocultamiento",
+      "resumen": "Usar perfiles anónimos en redes sociales. Ejemplos: administradores de páginas o grupos ocultos, datos «whois» enmascarados de dominios, artículos de noticias sin firma, sitios de noticias sin cabecera identificable.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0013",
+      "tactica_id": "TA04",
+      "tactica_es": "Desarrollo de redes",
+      "nombre_original": "Create fake websites",
+      "nombre_es": "Crear sitios web falsos",
+      "resumen": "Crear activos mediáticos que respalden organizaciones falsas (p. ej., un «think tank»), personas falsas (p. ej., «expertos») y/o sirvan como plataformas para distribuir malware o lanzar operaciones de phishing.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0014",
+      "tactica_id": "TA04",
+      "tactica_es": "Desarrollo de redes",
+      "nombre_original": "Prepare fundraising campaigns",
+      "nombre_es": "Preparar campañas de financiamiento",
+      "resumen": "Generar ingresos mediante campañas de financiamiento nuevas o existentes; p. ej., recolectar datos y dar credibilidad a una persona ficticia vía GoFundMe o Patreon, o mediante un sitio falso con pagos por PayPal o Stripe.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0015",
+      "tactica_id": "TA04",
+      "tactica_es": "Desarrollo de redes",
+      "nombre_original": "Create hashtags",
+      "nombre_es": "Crear hashtags",
+      "resumen": "Crear uno o más hashtags y/o grupos de hashtags. Muchas campañas incidentales crean hashtags para promover su evento fabulado. Esto produce dos efectos importantes: 1) crea una percepción de realidad alrededor del evento («si tiene hashtag, existe»), y 2) difunde la historia más ampliamente mediante tendencias y búsquedas. Es un activo necesario para dirigir y gestionar la «conversación» asociada al lanzamiento del incidente.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0016",
+      "tactica_id": "TA05",
+      "tactica_es": "Microsegmentación",
+      "nombre_original": "Clickbait",
+      "nombre_es": "Cebo de clics (clickbait)",
+      "resumen": "Crear titulares llamativos (indignación, duda, humor) requeridos para atraer tráfico y participación. Es un activo clave.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0017",
+      "tactica_id": "TA05",
+      "tactica_es": "Microsegmentación",
+      "nombre_original": "Conduct Fundraising Campaigns",
+      "nombre_es": "Ejecutar campañas de financiamiento",
+      "resumen": "Dirigir tráfico y participación hacia los sitios de la campaña de financiamiento; provee métricas medibles para evaluar tasas de conversión.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0018",
+      "tactica_id": "TA05",
+      "tactica_es": "Microsegmentación",
+      "nombre_original": "Purchase advertisements",
+      "nombre_es": "Comprar publicidad",
+      "resumen": "Crear o financiar avisos publicitarios dirigidos a poblaciones específicas.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0019",
+      "tactica_id": "TA06",
+      "tactica_es": "Desarrollo de contenido",
+      "nombre_original": "Generate information pollution",
+      "nombre_es": "Generar contaminación informativa",
+      "resumen": "Inundar los canales sociales; dirigir tráfico hacia todos los activos; crear un aura o percepción de omnipresencia/consenso (a favor, en contra o ambas simultáneamente) sobre un tema. «Nada es verdad, pero todo es posible.» Similar a una campaña astroturf.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0020",
+      "tactica_id": "TA06",
+      "tactica_es": "Desarrollo de contenido",
+      "nombre_original": "Trial content",
+      "nombre_es": "Contenido de prueba (pruebas A/B)",
+      "resumen": "Probar iterativamente el rendimiento del incidente (mensajes, contenido, etc.), p. ej. pruebas A/B de titulares y métricas de compromiso, tasas de conversión del sitio web o de la campaña de financiamiento.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0021",
+      "tactica_id": "TA06",
+      "tactica_es": "Desarrollo de contenido",
+      "nombre_original": "Memes",
+      "nombre_es": "Memes",
+      "resumen": "Los memes son uno de los artefactos más importantes de la propaganda computacional. Aquí se usa la definición estrecha basada en imágenes, pero el nombre no es casualidad: conservan gran parte de las propiedades del concepto original de Dawkins como unidad autorreplicante de cultura. Combinan referencia y comentario, imagen y narrativa, emoción y mensaje. Son una herramienta poderosa y el corazón de las campañas modernas de influencia.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0022",
+      "tactica_id": "TA06",
+      "tactica_es": "Desarrollo de contenido",
+      "nombre_original": "Conspiracy narratives",
+      "nombre_es": "Narrativas conspirativas",
+      "resumen": "Las narrativas conspirativas apelan al deseo humano de orden explicativo, invocando la participación de actores poderosos (frecuentemente siniestros) que persiguen sus propios objetivos políticos. Resultan especialmente atractivas cuando la audiencia tiene poca información, está marginada o predispuesta a rechazar la explicación prevaleciente. Son un componente importante del modelo de «manguera de mentiras».",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0023",
+      "tactica_id": "TA06",
+      "tactica_es": "Desarrollo de contenido",
+      "nombre_original": "Distort facts",
+      "nombre_es": "Distorsionar hechos",
+      "resumen": "Cambiar, torcer o exagerar hechos existentes para construir una narrativa que difiere de la realidad. Ejemplo: imágenes e ideas pueden distorsionarse colocándolas en un contexto impropio.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0024",
+      "tactica_id": "TA06",
+      "tactica_es": "Desarrollo de contenido",
+      "nombre_original": "Create fake videos and images",
+      "nombre_es": "Crear videos e imágenes falsos",
+      "resumen": "Crear videos y/o imágenes falsos manipulando contenido existente o generando contenido nuevo (p. ej., deepfakes).",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0025",
+      "tactica_id": "TA06",
+      "tactica_es": "Desarrollo de contenido",
+      "nombre_original": "Leak altered documents",
+      "nombre_es": "Filtrar documentos alterados",
+      "resumen": "Obtener documentos (por robo o filtración), alterarlos y publicarlos, posiblemente mezclados entre documentos o fuentes verídicas.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0026",
+      "tactica_id": "TA06",
+      "tactica_es": "Desarrollo de contenido",
+      "nombre_original": "Create pseudoscientific or disingenuous research",
+      "nombre_es": "Crear investigación pseudocientífica o falaz",
+      "resumen": "Crear investigación académica falsa. Ejemplo: la investigación falsa en ciencias sociales suele apuntar a temas sociales explosivos como género, raza y sexualidad; la pseudociencia puede apuntar al debate climático o a corrientes antivacunas.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0027",
+      "tactica_id": "TA06",
+      "tactica_es": "Desarrollo de contenido",
+      "nombre_original": "Adapt existing narratives",
+      "nombre_es": "Adaptar narrativas existentes",
+      "resumen": "Adaptar narrativas existentes a los objetivos operativos actuales es el punto óptimo táctico de una campaña eficaz: aprovecharlas no solo es más efectivo sino que requiere muchos menos recursos que promover nuevas narrativas maestras, que opera en una escala mucho mayor de tiempo y alcance. Narrativas maestras fluidas e intercambiables («Occidente moralmente corrupto») pueden adaptarse para dividir (propaganda LGBT) o para distorsionar (personas presentadas como agentes de la CIA). Para audiencias occidentales existen encuadres igualmente potentes, como «EE.UU. tiene una historia conflictiva en relaciones raciales, sobre todo en justicia criminal».",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0028",
+      "tactica_id": "TA06",
+      "tactica_es": "Desarrollo de contenido",
+      "nombre_original": "Create competing narratives",
+      "nombre_es": "Crear narrativas competitivas",
+      "resumen": "La desinformación promueve una agenda impulsando narrativas que la favorecen; es más eficaz cuando la narrativa precede a la revelación del contenido específico, aunque eso frecuentemente no es posible. Suprimir narrativas ya en circulación exige una alternativa: construir y promover versiones contradictorias centradas en negación, desviación, desdén, contraacusaciones y exigencias desmedidas de prueba. Estas narrativas competitivas dan cobertura a los leales pero convencen menos a opositores e indecisos; son especialmente útiles en el enfoque de «manguera de desinformación».",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0029",
+      "tactica_id": "TA07",
+      "tactica_es": "Selección de canales",
+      "nombre_original": "Manipulate online polls",
+      "nombre_es": "Manipular encuestas en línea",
+      "resumen": "Crear encuestas en línea falsas o manipular encuestas existentes. Táctica de recolección de datos que apunta a quienes participan y potencialmente a sus redes de amigos/seguidores.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0030",
+      "tactica_id": "TA07",
+      "tactica_es": "Selección de canales",
+      "nombre_original": "Backstop personas",
+      "nombre_es": "Respaldar identidades ficticias",
+      "resumen": "Crear otros activos/dossieres/coberturas/relaciones o conexiones falsas y/o documentos, sitios, firmas y atribuciones para establecer, aumentar o inflar credibilidad y verosimilitud.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0031",
+      "tactica_id": "TA07",
+      "tactica_es": "Selección de canales",
+      "nombre_original": "YouTube",
+      "nombre_es": "YouTube",
+      "resumen": "Usar YouTube como canal de difusión narrativa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0032",
+      "tactica_id": "TA07",
+      "tactica_es": "Selección de canales",
+      "nombre_original": "Reddit",
+      "nombre_es": "Reddit",
+      "resumen": "Usar Reddit como canal de difusión narrativa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0033",
+      "tactica_id": "TA07",
+      "tactica_es": "Selección de canales",
+      "nombre_original": "Instagram",
+      "nombre_es": "Instagram",
+      "resumen": "Usar Instagram como canal de difusión narrativa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0034",
+      "tactica_id": "TA07",
+      "tactica_es": "Selección de canales",
+      "nombre_original": "LinkedIn",
+      "nombre_es": "LinkedIn",
+      "resumen": "Usar LinkedIn como canal de difusión narrativa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0035",
+      "tactica_id": "TA07",
+      "tactica_es": "Selección de canales",
+      "nombre_original": "Pinterest",
+      "nombre_es": "Pinterest",
+      "resumen": "Usar Pinterest como canal de difusión narrativa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0036",
+      "tactica_id": "TA07",
+      "tactica_es": "Selección de canales",
+      "nombre_original": "WhatsApp",
+      "nombre_es": "WhatsApp",
+      "resumen": "Usar WhatsApp como canal de difusión narrativa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0037",
+      "tactica_id": "TA07",
+      "tactica_es": "Selección de canales",
+      "nombre_original": "Facebook",
+      "nombre_es": "Facebook",
+      "resumen": "Usar Facebook como canal de difusión narrativa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0038",
+      "tactica_id": "TA07",
+      "tactica_es": "Selección de canales",
+      "nombre_original": "Twitter",
+      "nombre_es": "Twitter/X",
+      "resumen": "Usar Twitter/X como canal de difusión narrativa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0039",
+      "tactica_id": "TA08",
+      "tactica_es": "Cebado (pump priming)",
+      "nombre_original": "Bait legitimate influencers",
+      "nombre_es": "Cebar influencers legítimos",
+      "resumen": "En redes sociales, la credibilidad suele depender del tamaño de la red del usuario. Los «influencers» se llaman así por su alcance: 1) tamaño de su red (seguidores, quizá ponderados por su propia influencia) y 2) tasa de recirculación de sus dichos. Sumando medios tradicionales de todo nivel, la cantidad de portadores influyentes disponibles para amplificación involuntaria es sustancial. Apuntando a personas y organizaciones de alta influencia con narrativas diseñadas para sus motores emocionales o ideológicos, las campañas suman credibilidad percibida mediante la saturación y la adopción por agentes confiables: celebridades, periodistas, líderes locales.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0040",
+      "tactica_id": "TA08",
+      "tactica_es": "Cebado (pump priming)",
+      "nombre_original": "Demand unsurmountable proof",
+      "nombre_es": "Exigir pruebas insalvables",
+      "resumen": "Las campañas suelen explotar asimetrías tácticas e informativas —como en las estrategias de Distorsión y Negación o la «manguera de desinformación»—. En concreto: los conspiracionistas pueden equivocarse una y otra vez, pero los defensores de la verdad deben ser perfectos. Escalando constantemente las exigencias de prueba, los propagandistas capitalizan esa asimetría y la preparan para el futuro, con ventaja aún mayor: al conspiracionista se le concede mayor libertad para «preguntar», mientras quien dice la verdad carga con estándares cada vez más altos.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0041",
+      "tactica_id": "TA08",
+      "tactica_es": "Cebado (pump priming)",
+      "nombre_original": "Deny involvement",
+      "nombre_es": "Negar involucramiento",
+      "resumen": "Sin prueba concluyente (e incluso con ella), el creador del incidente puede negar su involucramiento. Esta técnica también aprovecha las asimetrías descritas en T0040, en particular la desventaja de quien dice la verdad en un entorno de «manguera de desinformación».",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0042",
+      "tactica_id": "TA08",
+      "tactica_es": "Cebado (pump priming)",
+      "nombre_original": "Kernel of Truth",
+      "nombre_es": "Grano de verdad",
+      "resumen": "Envolver mentiras o contextos/hechos alterados alrededor de verdades. Las campañas persiguen varios objetivos frente a la audiencia: socavar una narrativa habitual de esa audiencia, o promover una menos común pero preferida por el atacante. En ambos casos hay que cambiar la importancia relativa de las narrativas con que se interpretan los eventos. Cuando el mensaje usa reportes fácticos para lograr esos ajustes, es menos probable que sea rechazado de plano; si puede yuxtaponer una verdad fáctica sobre actualidad con la verdad abstracta de esas narrativas, el propagandista puede socavarlas o promoverlas selectivamente. El contexto importa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0043",
+      "tactica_id": "TA08",
+      "tactica_es": "Cebado (pump priming)",
+      "nombre_original": "Use SMS/ WhatsApp/ Chat apps",
+      "nombre_es": "Usar SMS/WhatsApp/aplicaciones de chat",
+      "resumen": "La mensajería directa por aplicaciones cifradas es un método de entrega en crecimiento: mensajes a menudo automatizados, y nuevos métodos de envío y almacenamiento los vuelven anónimos, virales y efímeros. Es un espacio difícil de monitorear, pero también difícil para construir notoriedad.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0044",
+      "tactica_id": "TA08",
+      "tactica_es": "Cebado (pump priming)",
+      "nombre_original": "Seed distortions",
+      "nombre_es": "Sembrar distorsiones",
+      "resumen": "Probar una amplia variedad de mensajes en las horas iniciales de un incidente o evento, para dar un relato o impresión engañosa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0045",
+      "tactica_id": "TA08",
+      "tactica_es": "Cebado (pump priming)",
+      "nombre_original": "Use fake experts",
+      "nombre_es": "Usar falsos expertos",
+      "resumen": "Usar los falsos expertos montados en T0009. Los pseudoexpertos son activos descartables: suelen aparecer una vez y desaparecer. Otorgan «credibilidad» a la desinformación y explotan el sesgo de credencial.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0046",
+      "tactica_id": "TA08",
+      "tactica_es": "Cebado (pump priming)",
+      "nombre_original": "Search Engine Optimization",
+      "nombre_es": "Optimización para buscadores (SEO)",
+      "resumen": "Manipular métricas de compromiso de contenido (Reddit, Twitter) para influir en resultados de búsquedas de noticias (Google); también eleva titulares a alertas de noticias. Conocida como «SEO black-hat».",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0047",
+      "tactica_id": "TA09",
+      "tactica_es": "Exposición y amplificación",
+      "nombre_original": "Muzzle social media as a political force",
+      "nombre_es": "Amordazar las redes sociales como fuerza política",
+      "resumen": "Usar influencia política o poder estatal para silenciar comentarios críticos en redes sociales: remociones de contenido solicitadas o impulsadas por gobiernos (ver informes de transparencia de Google).",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0048",
+      "tactica_id": "TA09",
+      "tactica_es": "Exposición y amplificación",
+      "nombre_original": "Cow online opinion leaders",
+      "nombre_es": "Intimidar a líderes de opinión en línea",
+      "resumen": "Intimidar, coaccionar o amenazar a críticos, disidentes y periodistas mediante trolling o doxing.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0049",
+      "tactica_id": "TA09",
+      "tactica_es": "Exposición y amplificación",
+      "nombre_original": "Flooding",
+      "nombre_es": "Inundación (flooding)",
+      "resumen": "Inundar (flooding) o abrumar (mobbing) los canales y hashtags de redes sociales con un volumen excesivo de contenido para controlar o moldear la conversación y/o ahogar puntos de vista opuestos. Bots y trolls «patrióticos» son herramientas eficaces para lograrlo.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0050",
+      "tactica_id": "TA09",
+      "tactica_es": "Exposición y amplificación",
+      "nombre_original": "Cheerleading domestic social media ops",
+      "nombre_es": "Operaciones domésticas de apoyo entusiasta en redes",
+      "resumen": "Desplegar comentaristas y astroturfers coordinados por el Estado, tanto en operaciones de influencia domésticas como externas.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0051",
+      "tactica_id": "TA09",
+      "tactica_es": "Exposición y amplificación",
+      "nombre_original": "Fabricate social media comment",
+      "nombre_es": "Fabricar comentarios en redes sociales",
+      "resumen": "Usar comentaristas pagados por el gobierno, astroturfers y chatbots programados para responder a palabras clave o hashtags específicos, influenciando conversaciones, reseñas de productos y foros de comentarios.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0052",
+      "tactica_id": "TA09",
+      "tactica_es": "Exposición y amplificación",
+      "nombre_original": "Tertiary sites amplify news",
+      "nombre_es": "Sitios terciarios amplifican noticias",
+      "resumen": "Crear sitios web de contenido/noticias/opinión para republicar historias. Los sitios terciarios circulan y amplifican narrativas; frecuentemente carecen de cabecera, firmas o atribución.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0053",
+      "tactica_id": "TA09",
+      "tactica_es": "Exposición y amplificación",
+      "nombre_original": "Twitter trolls amplify and manipulate",
+      "nombre_es": "Troles amplifican y manipulan",
+      "resumen": "Usar trolls para amplificar y/o manipular narrativas. Perfiles falsos (sockpuppets) que apoyan individuos o narrativas de todo el espectro político, con énfasis creciente en promover contenido local y usuarios reales que ya generan contenido divisivo, porque amplificar contenido existente es más fácil que crearlo. Operan donde haya cuestiones socialmente divisorias (politizables).",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0054",
+      "tactica_id": "TA09",
+      "tactica_es": "Exposición y amplificación",
+      "nombre_original": "Twitter bots amplify",
+      "nombre_es": "Bots amplifican",
+      "resumen": "Usar bots para amplificar narrativas por encima de umbrales algorítmicos. Los bots son perfiles automatizados diseñados para amplificar contenido (retuitear o likear automáticamente) y darle apariencia de más popularidad de la real; pueden operar en red de manera coordinada. Cada vez más, ante mejores detectores y plataformas más reactivas, son activos baratos y descartables de despliegue mínimo.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0055",
+      "tactica_id": "TA09",
+      "tactica_es": "Exposición y amplificación",
+      "nombre_original": "Use hashtag",
+      "nombre_es": "Usar hashtag",
+      "resumen": "Usar un hashtag dedicado para el incidente: crear uno específico de campaña/incidente o tomar control de uno existente.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0056",
+      "tactica_id": "TA09",
+      "tactica_es": "Exposición y amplificación",
+      "nombre_original": "Dedicated channels disseminate information pollution",
+      "nombre_es": "Canales dedicados difunden contaminación informativa",
+      "resumen": "Emitir contaminación informativa (p. ej., artículos sobre una historia falsa no reportada) a través de canales controlados por el creador del incidente o relacionados con él.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0057",
+      "tactica_id": "TA10",
+      "tactica_es": "Impulso de actividad fuera de línea",
+      "nombre_original": "Organise remote rallies and events",
+      "nombre_es": "Organizar concentraciones y eventos remotos",
+      "resumen": "Coordinar y promover eventos del mundo real a través de plataformas mediáticas: concentraciones, protestas, reuniones en apoyo de las narrativas del incidente.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0058",
+      "tactica_id": "TA11",
+      "tactica_es": "Persistencia",
+      "nombre_original": "Legacy web content",
+      "nombre_es": "Contenido web heredado",
+      "resumen": "Mantener visible el contenido del incidente durante largo tiempo, p. ej. explotando los términos de servicio de la plataforma o ubicándolo donde sea difícil o improbable de remover.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0059",
+      "tactica_id": "TA11",
+      "tactica_es": "Persistencia",
+      "nombre_original": "Play the long game",
+      "nombre_es": "Jugar el juego largo",
+      "resumen": "Jugar el juego largo puede significar dos cosas: 1) planificar el mensaje y dejarlo crecer orgánicamente sin amplificación propia; es un método lento que requiere años para arraigar; 2) desarrollar una serie de narrativas aparentemente desconectadas que eventualmente se combinan en una nueva narrativa.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0060",
+      "tactica_id": "TA11",
+      "tactica_es": "Persistencia",
+      "nombre_original": "Continue to amplify",
+      "nombre_es": "Continuar amplificando",
+      "resumen": "Continuar la amplificación de la narrativa o del mensaje después de terminado el trabajo principal del incidente.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0061",
+      "tactica_id": "TA10",
+      "tactica_es": "Impulso de actividad fuera de línea",
+      "nombre_original": "Sell merchandising",
+      "nombre_es": "Vender merchandising",
+      "resumen": "Vender gorras, remeras, banderas y otro contenido de marca diseñado para ser visto en el mundo real.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0062",
+      "tactica_id": "TA12",
+      "tactica_es": "Medición de efectividad",
+      "nombre_original": "Behaviour changes",
+      "nombre_es": "Cambios de comportamiento",
+      "resumen": "Monitorear y evaluar cambios de comportamiento derivados de incidentes de desinformación.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0063",
+      "tactica_id": "TA12",
+      "tactica_es": "Medición de efectividad",
+      "nombre_original": "Message reach",
+      "nombre_es": "Alcance del mensaje",
+      "resumen": "Monitorear y evaluar el alcance del mensaje en incidentes de desinformación.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0064",
+      "tactica_id": "TA12",
+      "tactica_es": "Medición de efectividad",
+      "nombre_original": "Social media engagement",
+      "nombre_es": "Interacción en redes sociales",
+      "resumen": "Monitorear y evaluar el compromiso en redes sociales en incidentes de desinformación.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0065",
+      "tactica_id": "TA04",
+      "tactica_es": "Desarrollo de redes",
+      "nombre_original": "Use physical broadcast capabilities",
+      "nombre_es": "Usar capacidades de radiodifusión física",
+      "resumen": "Crear o cooptar capacidades de radiodifusión física (TV, radio, etc.).",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0066",
+      "tactica_id": "TA02",
+      "tactica_es": "Planificación de objetivos",
+      "nombre_original": "Degrade adversary",
+      "nombre_es": "Degradar al adversario",
+      "resumen": "Planificar degradar la imagen o capacidad de acción del adversario, incluida la preparación y uso de información dañina sobre sus acciones o reputación.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0067",
+      "tactica_id": "TA02",
+      "tactica_es": "Planificación de objetivos",
+      "nombre_original": "Plan to discredit credible sources",
+      "nombre_es": "Planear desacreditar fuentes creíbles",
+      "resumen": "Planificar deslegitimar el panorama mediático y degradar la confianza pública en el periodismo desacreditando fuentes creíbles; facilita promover el contenido propio de la operación de influencia.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0068",
+      "tactica_id": "TA02",
+      "tactica_es": "Planificación de objetivos",
+      "nombre_original": "Respond to breaking news event",
+      "nombre_es": "Responder a noticia de última hora",
+      "resumen": "La atención mediática sobre una historia se intensifica durante una noticia de última hora: los hechos poco claros y la información incompleta incrementan especulación, rumores y teorías conspirativas, todos vulnerables a manipulación.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0069",
+      "tactica_id": "TA02",
+      "tactica_es": "Planificación de objetivos",
+      "nombre_original": "Respond to active crisis",
+      "nombre_es": "Responder a crisis activa",
+      "resumen": "El pánico, los rumores y la especulación se intensifican durante crisis activas (eventos violentos, desastres naturales, fenómenos de salud pública, etc.); todo ello es vulnerable a manipulación.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0070",
+      "tactica_id": "TA02",
+      "tactica_es": "Planificación de objetivos",
+      "nombre_original": "Analyze existing communities",
+      "nombre_es": "Analizar comunidades existentes",
+      "resumen": "Evaluar el potencial de operación de influencia de comunidades existentes en redes, donde los usuarios comparten intereses, experiencias, política u otras características. La evaluación incluye el uso potencial del trauma grupal que pueda apuntarse para ganar apoyo, apelando emocionalmente a agravios compartidos de una población dada.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0071",
+      "tactica_id": "TA13",
+      "tactica_es": "Análisis del centro de gravedad",
+      "nombre_original": "Find echo chambers",
+      "nombre_es": "Encontrar cámaras de eco",
+      "resumen": "Encontrar (o planificar crear) espacios —grupos en redes, términos de búsqueda, conjuntos de hashtags— donde los individuos solo interactúan con gente que piensa igual.",
+      "resumen_idioma": "es"
+    },
+    {
+      "id": "T0072",
+      "tactica_id": "TA13",
+      "tactica_es": "Análisis del centro de gravedad",
+      "nombre_original": "Segment audiences",
+      "nombre_es": "Segmentar audiencias",
+      "resumen": "Crear segmentaciones de audiencia según características de interés para la campaña: afiliación política, ubicación geográfica, ingresos, demografía y psicografía.",
+      "resumen_idioma": "es"
+    }
+  ]
+}

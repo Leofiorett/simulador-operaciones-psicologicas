@@ -1,0 +1,53 @@
+{
+  "modulo": "modulo-05-medios",
+  "preguntas": [
+    {
+      "pregunta": "La selección de canal se basa en:",
+      "opciones": ["Preferencia del emisor", "Accesibilidad, confianza y momento de la audiencia", "El canal más moderno", "Costo mínimo"],
+      "correcta": 1,
+      "explicacion": "Tres variables de la audiencia determinan la elección del medio."
+    },
+    {
+      "pregunta": "En el motor SOP, el canal con mayor propagación interpersonal (viralidad) es:",
+      "opciones": ["Radio", "Impresos", "Acción cívica/contacto directo", "Digital sintético"],
+      "correcta": 3,
+      "explicacion": "Digital sintético: propagación 0.25 por turno, la más alta del catálogo."
+    },
+    {
+      "pregunta": "El canal de fatiga más rápida es:",
+      "opciones": ["Altavoces", "Radio", "Impresos", "Contacto directo"],
+      "correcta": 0,
+      "explicacion": "Fatiga 0.10/turno: quema el mensaje en pocos turnos si se repite sin descanso."
+    },
+    {
+      "pregunta": "Un volante de pasaje seguro debe incluir necesariamente:",
+      "opciones": ["Historia completa del conflicto", "Instrucción conductual inequívoca y pictograma universal", "El nombre del comandante", "Propaganda negra"],
+      "correcta": 1,
+      "explicacion": "Mensaje mínimo accionable: qué hacer y cómo se garantiza el trato."
+    },
+    {
+      "pregunta": "El equivalente digital del 'rumor controlado' clásico es:",
+      "opciones": ["Siembra de distorsiones (DISARM T0044)", "Volantes", "Encuestas oficiales", "Dramatizados radiales"],
+      "correcta": 0,
+      "explicacion": "T0044 'Seed distortions' — inyección gradual de imprecisiones sobre base veraz."
+    },
+    {
+      "pregunta": "Lectura doctrinal correcta de los medios de masa:",
+      "opciones": ["Alcanzan lejos y persuaden mucho", "Alcanzan lejos pero convierten poco", "Solo sirven para defensa", "Generan credibilidad máxima"],
+      "correcta": 1,
+      "explicacion": "Los medios cercanos convierten más; los masivos saturan alcance."
+    },
+    {
+      "pregunta": "Riesgo nuevo característico del entorno digital para el emisor institucional:",
+      "opciones": ["Analfabetismo", "Apropiación satírica y pérdida de control del mensaje", "Falta de alcance", "Exceso de credibilidad"],
+      "correcta": 1,
+      "explicacion": "El contenido institucional puede ser reapropiado y subvertido por adversarios."
+    },
+    {
+      "pregunta": "Para una audiencia rural de baja conectividad y alta confianza en emisoras locales, el mix inicial razonable es:",
+      "opciones": ["Solo digital sintético intensivo", "Radio local + impresos + contacto directo", "Solo altavoces aéreos", "Ninguno; esperar"],
+      "correcta": 1,
+      "explicacion": "Canal confiable primero, refuerzos impresos y presencia física para conversión."
+    }
+  ]
+}

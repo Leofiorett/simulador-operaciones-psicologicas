@@ -1,0 +1,53 @@
+{
+  "modulo": "modulo-02-marco-conceptual",
+  "preguntas": [
+    {
+      "pregunta": "Propaganda atribuida falsamente al adversario se clasifica como:",
+      "opciones": ["Blanca", "Gris", "Negra", "Institucional"],
+      "correcta": 2,
+      "explicacion": "La propaganda negra oculta o falsea su fuente real atribuyéndola al adversario u otro actor."
+    },
+    {
+      "pregunta": "El riesgo principal de la propaganda gris/negra para el esfuerzo propio es:",
+      "opciones": ["Costo de producción", "Su exposición compromete la credibilidad blanca", "Alcance limitado", "Prohibición absoluta"],
+      "correcta": 1,
+      "explicacion": "Si se descubre el origen real, contamina toda la línea blanca del emisor."
+    },
+    {
+      "pregunta": "Nivel de conducción que apoya directamente a la unidad en contacto con efectos medibles en horas:",
+      "opciones": ["Estratégico", "Operativo", "Táctico", "Político"],
+      "correcta": 2,
+      "explicacion": "La OPSIC táctica (altavoces, volantes de rendición) opera en horas/días junto a la maniobra."
+    },
+    {
+      "pregunta": "El principio doctrinal de veracidad establece que:",
+      "opciones": ["Toda propaganda debe revelar todo", "No mentir: presentar la verdad selectivamente sin falsearla", "Mentir está permitido si es creíble", "Solo aplica a propaganda blanca"],
+      "correcta": 1,
+      "explicacion": "La verdad selectiva preserva credibilidad; la mentira descubierta la destruye."
+    },
+    {
+      "pregunta": "'Las palabras persuaden, los hechos confirman' expresa el principio de:",
+      "opciones": ["Coherencia entre conducta de la fuerza y mensaje", "Frecuencia óptima", "Segmentación", "Deniabilidad"],
+      "correcta": 0,
+      "explicacion": "Una OPSIC que contradice la conducta real se autodestruye."
+    },
+    {
+      "pregunta": "Qué disciplina aporta el estudio del individuo como miembro de grupo y dinámica colectiva:",
+      "opciones": ["Psicología individual", "Sociología", "Estadística", "Logística"],
+      "correcta": 1,
+      "explicacion": "La sociología estudia grupos, liderazgo de opinión y difusión; unidad de análisis grupal."
+    },
+    {
+      "pregunta": "La microsegmentación digital es la evolución de qué práctica clásica:",
+      "opciones": ["Volantes masivos", "Selección de canal por audiencia", "Altavoces tácticos", "Radio nacional"],
+      "correcta": 1,
+      "explicacion": "Ambas responden al principio 'audiencia primero': canal adecuado a cada segmento."
+    },
+    {
+      "pregunta": "La manguera de falsedades se distingue de la propaganda clásica porque:",
+      "opciones": ["Es siempre veraz", "Prioriza volumen, velocidad, repetición y multicanalidad sin exigir coherencia", "Usa un único canal controlado", "Evita la repetición"],
+      "correcta": 1,
+      "explicacion": "Modelo descrito para operaciones modernas: alta intensidad sin compromiso con consistencia."
+    }
+  ]
+}

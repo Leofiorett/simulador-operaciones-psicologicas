@@ -1,0 +1,51 @@
+{
+  "modulo": "modulo-08-marco-legal",
+  "preguntas": [
+    {
+      "pregunta": "En Nicaragua c/ EE.UU. (1986), la CIJ concluyó que difundir el manual CIA de OPSIC:",
+      "opciones": ["Fue legal por ser doctrina", "Alentó actos contrarios a los principios generales del derecho humanitario", "Solo fue un error editorial", "No fue examinado"],
+      "correcta": 1,
+      "explicacion": "El manual instruía 'neutralizaciones' propagandísticas y provocaciones con víctimas: contrarias al DIH."
+    },
+    {
+      "pregunta": "En Argentina, las capacidades militares de influencia se orientan por ley a audiencias:",
+      "opciones": ["Domésticas en crisis interna", "Externas en el marco de hipótesis de conflicto autorizadas", "Electoraales", "Sin restricción"],
+      "correcta": 1,
+      "explicacion": "Ley 23.554: defensa = agresión externa; seguridad interior es competencia policial/civil."
+    },
+    {
+      "pregunta": "Regla cardinal de empleo del SOP:",
+      "opciones": ["Operar sobre redes sociales reales con autorización", "Solo audiencias sintéticas en entorno aislado", "Usar datos personales reales anonimizados", "Exportar campañas si son educativas"],
+      "correcta": 1,
+      "explicacion": "La plataforma no tiene conectividad externa y prohíbe operar sobre personas reales."
+    },
+    {
+      "pregunta": "Un ejercicio SOP puede iniciarse únicamente si:",
+      "opciones": ["Lo pide cualquier alumno", "Hay instructor responsable registrado como authorized_by", "El escenario es fácil", "La red está desconectada"],
+      "correcta": 1,
+      "explicacion": "Puerta de autorización obligatoria con trazabilidad completa."
+    },
+    {
+      "pregunta": "Propaganda que induce pánico masivo con consecuencias mortales puede configurar:",
+      "opciones": ["Una técnica gris válida", "Ataque contra civiles", "Ejercicio legítimo", "Acción cívica"],
+      "correcta": 1,
+      "explicacion": "El DIH protege a civiles; inducir pánico letal puede constituir ataque prohibido."
+    },
+    {"pregunta":"Periodistas y trabajadores humanitarios en zona de conflicto tienen estatuto de:",
+      "opciones":["Combatientes","Objetivos psicológicos preferentes","Civiles protegidos","Personal militar auxiliar"],
+      "correcta":2,
+      "explicacion":"Son civiles protegidos; dirigirles acciones hostiles viola el DIH."},
+    {
+      "pregunta": "Si un plan pasa la prueba de legalidad pero falla legitimidad y proporcionalidad:",
+      "opciones": ["Se ejecuta igual", "Escala a decisión política, no técnica", "Se clasifica como negro", "Se delega al operador"],
+      "correcta": 1,
+      "explicacion": "Marco de análisis: legalidad → legitimidad → proporcionalidad → reversibilidad → responsabilidad."
+    },
+    {
+      "pregunta": "La libertad de expresión (arts. 14 y 32 CN) implica para actividades estatales de influencia doméstica:",
+      "opciones": ["Que están exentas de control", "Respeto al régimen republicano de publicidad y garantías de expresión", "Que solo aplican en guerra", "Que requieren decreto secreto"],
+      "correcta": 1,
+      "explicacion": "Toda influencia estatal sobre opinión doméstica está limitada por esas garantías."
+    }
+  ]
+}

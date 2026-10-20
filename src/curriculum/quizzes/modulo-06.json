@@ -1,0 +1,53 @@
+{
+  "modulo": "modulo-06-evaluacion",
+  "preguntas": [
+    {
+      "pregunta": "El error clásico de evaluación es medir:",
+      "opciones": ["Comportamiento final", "Actividad (volantes repartidos) en vez de efecto (cambio de conducta)", "Polarización", "Credibilidad"],
+      "correcta": 1,
+      "explicacion": "Esfuerzo ≠ efecto: solo el BOD alcanzado acredita efectividad."
+    },
+    {
+      "pregunta": "Sin BOD verificable, la evaluación es:",
+      "opciones": ["Posible con encuestas", "Imposible", "Opcional", "Reemplazable por métricas de difusión"],
+      "correcta": 1,
+      "explicacion": "No hay criterio de éxito definible sin conducta objetivo observable."
+    },
+    {
+      "pregunta": "Alto alcance con desplazamiento nulo indica:",
+      "opciones": ["Éxito total", "Falla del mensaje: revisar gancho y símbolos", "Falta de volantes", "Error del motor"],
+      "correcta": 1,
+      "explicacion": "Si llega pero no mueve, el problema es contenido, no distribución."
+    },
+    {
+      "pregunta": "Desplazamiento logrado con polarización creciente sugiere:",
+      "opciones": ["Redoblar frecuencia", "Segmentación demasiado agresiva: incorporar mensajes puente", "Abandonar el plan", "Cambiar a propaganda negra"],
+      "correcta": 1,
+      "explicacion": "Ganar un segmento fragmentando al conjunto compromete el efecto global."
+    },
+    {
+      "pregunta": "Efectividad decreciente turno a turno con igual frecuencia señala:",
+      "opciones": ["Mejora sostenida", "Fatiga: rotar productos y descansar audiencia", "Error de semilla", "Credibilidad excesiva"],
+      "correcta": 1,
+      "explicacion": "El acumulador de fatiga reduce credibilidad efectiva con la sobreexposición."
+    },
+    {
+      "pregunta": "La línea base sirve para:",
+      "opciones": ["Decorar el reporte", "Comparar el estado posterior y atribuir el cambio", "Calcular presupuesto", "Definir canales"],
+      "correcta": 1,
+      "explicacion": "Sin referencia previa no se puede atribuir desplazamiento a la campaña."
+    },
+    {
+      "pregunta": "En ejercicios de defensa, el score se calcula comparando contra:",
+      "opciones": ["Un escenario distinto", "La línea base solo-adversaria (sin defensa)", "El promedio de la unidad", "Un estándar fijo universal"],
+      "correcta": 1,
+      "explicacion": "Se mide la mejora relativa que aporta la contramedida del alumno."
+    },
+    {
+      "pregunta": "Qué par NO pertenece a los objetivos estándar del simulador:",
+      "opciones": ["actitud_media_min / polarizacion_max", "alcance_min", "presupuesto_max", "turnos_default"],
+      "correcta": 2,
+      "explicacion": "No hay variable presupuestaria en el motor v1."
+    }
+  ]
+}

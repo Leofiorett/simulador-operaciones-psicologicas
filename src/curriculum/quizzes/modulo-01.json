@@ -1,0 +1,53 @@
+{
+  "modulo": "modulo-01-fundamentos",
+  "preguntas": [
+    {
+      "pregunta": "El principio rector de la guerra psicológica atribuido a Sun Tzu es:",
+      "opciones": ["La superioridad numérica decide", "Someter al enemigo sin combatir", "La guerra es continuación de la política", "Primero destruir, luego persuadir"],
+      "correcta": 1,
+      "explicacion": "Sun Tzu formula la victoria máxima como la que no requiere combate."
+    },
+    {
+      "pregunta": "La acción sicológica se define como el aspecto:",
+      "opciones": ["Ofensivo: actuar sobre el adversario", "Defensivo: consolidar y blindar la opinión propia y neutrales", "Logístico del esfuerzo informativo", "De inteligencia electrónica"],
+      "correcta": 1,
+      "explicacion": "Acción sicológica = defensa de la moral propia; operación sicológica = ofensiva sobre audiencias objetivo."
+    },
+    {
+      "pregunta": "Qué conflicto institucionalizó la propaganda estatal a gran escala por primera vez:",
+      "opciones": ["Guerras napoleónicas", "Primera Guerra Mundial", "Guerra de Corea", "Guerra Fría"],
+      "correcta": 1,
+      "explicacion": "En 1914-18 surgen organismos estatales dedicados (CPI, Wellington House)."
+    },
+    {
+      "pregunta": "La Operación Fortitude (1944) demostró el valor de:",
+      "opciones": ["La radiodifusión internacional", "El engaño estratégico coordinado con operaciones reales", "Los altavoces tácticos", "Las encuestas de opinión"],
+      "correcta": 1,
+      "explicacion": "Fortitude fijó reservas alemanas lejos de Normandía mediante un plan de engaño integral."
+    },
+    {
+      "pregunta": "El manual de Johnson publicado en Argentina (1974) sistematiza la doctrina:",
+      "opciones": ["Francesa de Argelia", "Soviética de guerra política", "Estadounidense de su época para audiencia hispanohablante", "China de las tres guerras"],
+      "correcta": 2,
+      "explicacion": "Es la adaptación al español de la doctrina PSYOP estadounidense publicada por Editorial Rioplatense."
+    },
+    {
+      "pregunta": "Según Johnson, la guerra moderna tiene carácter:",
+      "opciones": ["Exclusivamente militar", "Ideológico, integral y permanente", "Táctico y transitorio", "Puramente tecnológico"],
+      "correcta": 1,
+      "explicacion": "Triple característica: ideológica (finalidad), integral (todos los campos), permanente (aun sin combates)."
+    },
+    {
+      "pregunta": "Tras la Guerra Fría, la doctrina estadounidense renombró OPSIC como:",
+      "opciones": ["Guerra electrónica", "MISO (Military Information Support Operations)", "Acción cívica", "Comunicación social"],
+      "correcta": 1,
+      "explicacion": "JP 3-53 adopta el término MISO; OTAN mantiene PsyOps en AMSP-01."
+    },
+    {
+      "pregunta": "La guerra cognitiva difiere de la OPSIC clásica porque apunta principalmente a:",
+      "opciones": ["La logística adversaria", "El proceso decisional mismo del adversario", "La moral de la tropa propia", "Los medios de comunicación"],
+      "correcta": 1,
+      "explicacion": "El blanco pasa de la conducta observable al ciclo OODA / toma de decisiones."
+    }
+  ]
+}
