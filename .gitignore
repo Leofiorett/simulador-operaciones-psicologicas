@@ -1,4 +1,3 @@
-# dependencies
 node_modules/
 venv/
 .venv/
@@ -12,18 +11,12 @@ __pycache__/
 dist/
 build/
 *.egg-info/
-
-# logs / runtime
 *.log
 logs/
 *.tmp
-
-# secrets
 .env
 .env.*
 *.pem
 *.key
-
-# OS
 .DS_Store
 Thumbs.db
