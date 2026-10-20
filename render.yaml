@@ -4,6 +4,7 @@ services:
     runtime: docker
     dockerfilePath: ./Dockerfile
     plan: free
+    autoDeploy: true
     healthCheckPath: /api/health
     envVars:
       - key: SOP_SECRET_KEY
@@ -19,6 +20,5 @@ services:
 
 databases:
   - name: sop-db
-    plan: free
     databaseName: sop
     user: sop
